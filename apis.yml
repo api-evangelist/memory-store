@@ -1,7 +1,16 @@
 aid: memory-store
 name: Memory Store
-description: Memory Store is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Memory Store is a Y Combinator (Spring 2026) startup building a universal,
+  shared memory layer for teams and AI agents. It automatically collects
+  insights from communication and productivity tools — Gmail, Slack, Granola,
+  Claude, ChatGPT and more — and synthesizes them into an organized, searchable
+  "company brain." Memory Store is delivered primarily as a Model Context
+  Protocol (MCP) server, letting AI clients such as Claude, ChatGPT, Cursor and
+  Raycast record what matters and recall it anywhere without changing existing
+  workflows. A signature feature, "Briefs," maintains self-updating living
+  documents (decision logs, team status, customer requests) as new information
+  arrives.
 url: https://raw.githubusercontent.com/api-evangelist/memory-store/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,82 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://memory.store/opengraph-image.png
 tags:
 - Company
-apis: []
+- Memory
+- AI Agents
+- Model Context Protocol
+- MCP
+- Knowledge Management
+- Context
+- Productivity
+- Y Combinator
+apis:
+- name: Memory Store MCP Server
+  description: >-
+    The Memory Store Model Context Protocol (MCP) server exposes shared team
+    memory to AI clients (Claude, ChatGPT, Cursor, Raycast). It lets agents
+    record and recall organizational context, search memory, and read/update
+    living "Briefs." The hosted server is provisioned per workspace from the
+    Memory Store app.
+  humanURL: https://memory.store
+  baseURL: https://memory.store
+  properties:
+  - type: MCPServer
+    url: mcp/memory-store-mcp.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/memory-store-domain-security.yml
+- type: DeveloperPortal
+  url: https://memory.store/guides
+- type: Documentation
+  url: https://memory.store/guides
+- type: GettingStarted
+  url: https://memory.store/guides
+- type: SignUp
+  url: https://app.memory.store
+- type: Pricing
+  url: https://memory.store/pricing
+- type: Blog
+  url: https://memory.store/blog
+- type: Support
+  url: https://discord.gg/eREzXMqFpE
+- type: StatusPage
+  url: https://status.memory.store
+- type: TermsOfService
+  url: https://memory.store/terms
+- type: PrivacyPolicy
+  url: https://memory.store/privacy
+- type: X
+  url: https://x.com/memorydotstore
+- type: LinkedIn
+  url: https://www.linkedin.com/company/memorystore
+- type: MCPServer
+  url: mcp/memory-store-mcp.yml
+- type: Lifecycle
+  url: lifecycle/memory-store-lifecycle.yml
