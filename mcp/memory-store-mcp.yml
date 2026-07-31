@@ -1,0 +1,50 @@
+generated: '2026-07-20'
+method: searched
+source: https://memory.store/guides
+status: published
+summary: >-
+  Memory Store is delivered primarily AS a hosted Model Context Protocol (MCP)
+  server — it is the company's core product, not a candidate surface. The MCP
+  server gives AI clients a shared, cross-tool team memory: record what matters
+  and recall it anywhere. Provider-published setup guides document connecting
+  the server to Claude, ChatGPT, Cursor and Raycast. The concrete per-workspace
+  server endpoint and auth are provisioned from the Memory Store app
+  (https://app.memory.store) and are not published on the public docs, so the
+  exact URL/token are gated behind account sign-in.
+official: true
+vendor: Memory Store
+docs: https://memory.store/guides
+transport: streamable-http
+server: null
+server_note: >-
+  Hosted, per-workspace MCP endpoint provisioned via https://app.memory.store.
+  Not published as a static URL on the public documentation.
+auth:
+  type: oauth-or-token
+  note: >-
+    Connection credentials are issued per workspace from the Memory Store app;
+    the public guides do not disclose the auth scheme in detail.
+clients_documented:
+- Claude
+- ChatGPT
+- Cursor
+- Raycast
+setup_guides:
+- title: Memory Store for Claude and ChatGPT
+  url: https://memory.store/guides
+- title: Setting up Memory Store with Raycast
+  url: https://memory.store/guides
+- title: Memory Store for Cursor
+  url: https://memory.store/guides
+- title: Memory Store Prompt Templates
+  url: https://memory.store/guides
+- title: Memory Store User Guide
+  url: https://memory.store/guides
+capabilities:
+- Record organizational context/memories from connected tools (Gmail, Slack, Granola).
+- Recall and search shared team memory from any connected AI client.
+- Read and update self-updating living documents ("Briefs").
+note: >-
+  Individual MCP tool names are not enumerated on the public documentation.
+  Only the capabilities above are asserted, grounded in the public product
+  pages; no tool schema is fabricated.

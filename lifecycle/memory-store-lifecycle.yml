@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://memory.store
+note: >-
+  Memory Store publishes a public status page at https://status.memory.store.
+  No formal versioning policy, deprecation policy, Sunset/Deprecation header
+  documentation, or published SLA was found on the public product surface. The
+  product is early-stage (Y Combinator Spring 2026) and delivered as a hosted
+  MCP service, so there is no versioned public API contract documented.
+versioning:
+  scheme: null
+  detail: >-
+    No public versioning scheme documented for the hosted MCP service.
+  docs: null
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+status_page: https://status.memory.store
+deprecated_operations: []
