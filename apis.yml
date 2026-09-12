@@ -87,6 +87,8 @@ x-enrichment:
   artifacts_added: 3
   pass: local-v1
 common:
+- type: Website
+  url: https://www.memory.store/
 - type: DomainSecurity
   url: security/memory-store-domain-security.yml
 - type: DeveloperPortal
