@@ -49,7 +49,7 @@ tags:
 - Memory
 - AI Agents
 - MCP
-- Knowledge-Management
+- Knowledge Management
 - Context
 - Productivity
 - Y Combinator
@@ -63,6 +63,7 @@ tags_raw:
 - Context
 - Productivity
 - Y Combinator
+- Knowledge-Management
 apis:
 - name: Memory Store MCP Server
   description: >-
@@ -72,7 +73,6 @@ apis:
     living "Briefs." The hosted server is provisioned per workspace from the
     Memory Store app.
   humanURL: https://memory.store
-  baseURL: https://memory.store
   properties:
   - type: MCPServer
     url: mcp/memory-store-mcp.yml
