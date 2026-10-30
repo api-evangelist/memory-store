@@ -64,6 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Memory Store is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Memory Store is a Y Combinator (Spring 2026) startup building a universal, shared memory layer for teams and AI agents. It automatically collects insights from communication and productivity tools — Gmail, Slack, Granola, Claude, ChatGPT and more — and synthesizes them into an organized, searchable "company brain." Memory Store is delivered primarily as a Model Context Protocol (MCP) server, letting AI clients such as Claude, ChatGPT, Cursor and Raycast record what matters and recall it anywhere without changing existing workflows. A signature feature, "Briefs," maintains self-updating living documents (decision logs, team status, customer requests) as new information arrives.
 
-Backed by: y-combinator
+**Areas:** Company · Memory · AI Agents · MCP · Knowledge Management · Context · Productivity · Y Combinator
+
+## Memory Store on APIs.io
+
+Everything profiled for Memory Store is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/memory-store/](https://apis.io/providers/memory-store/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Memory Store MCP Server](https://apis.io/apis/memory-store/memory-store-mcp-server/) — The Memory Store Model Context Protocol (MCP) server exposes shared team memory to AI clients (Claude, ChatGPT, Cursor, Raycast). It lets agents record and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [memory-store-mcp.yml](https://apis.io/servers/memory-store/memory-store-mcp-yml/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Memory Store Domain Security](https://apis.io/security/memory-store/memory-store-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.memory.store/)
+- [Documentation](https://memory.store/guides)
+- [Getting started](https://memory.store/guides)
+- [Pricing](https://memory.store/pricing)
+- [Sign up](https://app.memory.store)
+- [Support](https://discord.gg/eREzXMqFpE)
+- [Blog](https://memory.store/blog)
+- [Terms of service](https://memory.store/terms)
+- [Privacy policy](https://memory.store/privacy)
+- [Status](https://status.memory.store)
+
+## API Evangelist rating
+
+**Kin Score 21.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 3.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/memory-store/](https://apis.io/providers/memory-store/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Memory Store: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/memory-store/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
